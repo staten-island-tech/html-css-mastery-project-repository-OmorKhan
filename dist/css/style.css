@@ -13,12 +13,16 @@ body {
 .header {
   position: relative;
   height: 100vh;
-  background-image: url(../dist/media/sky.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#b134a6), to(#12d623)), url("../dist/media/forest.jpg");
+  background-image: linear-gradient(#b134a6, #12d623), url("../dist/media/forest.jpg");
+  background-position: top;
+  background-size: cover;
 }
 
 .text-box {
   position: absolute;
-  top: 50%;
+  top: 10%;
+  left: 18%;
   text-align: center;
 }
 /*# sourceMappingURL=style.css.map */

@@ -12,11 +12,15 @@ body{
 .header{
     position: relative;
     height: 100vh;
-    background-image: url(../dist/media/sky.jpg);
+    background-image: linear-gradient($purple, $green),
+                  url("../dist/media/forest.jpg");
+    background-position: top;
+    background-size: cover;
     
 }
 .text-box{
     position: absolute;
-    top: 50%;
+    top: 10%;
+    left: 18%;
     text-align: center;;
 }
