@@ -12,8 +12,7 @@ body{
 .header{
     position: relative;
     height: 100vh;
-    background-image: linear-gradient($purple, $green),
-                  url("../dist/media/forest.jpg");
+    background-image: url("../../media/tower.jpg");
     background-position: top;
     background-size: cover;
     
