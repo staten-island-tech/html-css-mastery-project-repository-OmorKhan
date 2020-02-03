@@ -93,6 +93,7 @@ body {
   .text-one-side {
     font-size: 5rem;
     letter-spacing: 1.8rem;
+    left: 50%;
   }
 }
 
