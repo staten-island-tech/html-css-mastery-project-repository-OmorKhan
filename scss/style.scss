@@ -38,6 +38,6 @@ body{
 }
 .text-one-side{
     text-shadow:1rem 1rem 1rem $grey; 
-
-
+    animation-name: shrink_in;
+    animation-duration: 3s;
 }
