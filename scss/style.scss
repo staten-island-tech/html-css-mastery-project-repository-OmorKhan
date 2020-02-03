@@ -17,7 +17,10 @@ body{
     background-size: cover;
     @include laptop {
         background-position: center;
-        background-image: url("../../media/forest.jpg");
+        background-image: url("../../media/zipline.jpg");
+      }
+      @include tablet {
+       
       }
 
     
@@ -28,8 +31,13 @@ body{
     left: 18%;
     text-align: center;
     @include tablet {
-       
+       left: 0%;
       }
+    @include laptop {
+       left: 18%;
+       top: 10%;
+      }
+      
 }
 .text-one-main{
     display: flex;
@@ -51,6 +59,7 @@ body{
         font-size: 10rem;
         letter-spacing: 2.2rem;
         text-shadow:1rem 1rem 2rem $grey;
+        color: $white;
       }
 }
 .text-one-side{

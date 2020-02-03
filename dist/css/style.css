@@ -29,7 +29,7 @@ body {
 @media (min-width: 900px) {
   .header {
     background-position: center;
-    background-image: url("../../media/forest.jpg");
+    background-image: url("../../media/zipline.jpg");
   }
 }
 
@@ -38,6 +38,19 @@ body {
   top: 10%;
   left: 18%;
   text-align: center;
+}
+
+@media (min-width: 600px) {
+  .text-box {
+    left: 0%;
+  }
+}
+
+@media (min-width: 900px) {
+  .text-box {
+    left: 18%;
+    top: 10%;
+  }
 }
 
 .text-one-main {
@@ -78,6 +91,7 @@ body {
     font-size: 10rem;
     letter-spacing: 2.2rem;
     text-shadow: 1rem 1rem 2rem #686868;
+    color: #ffffff;
   }
 }
 
