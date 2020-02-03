@@ -26,6 +26,13 @@ body {
   background-size: cover;
 }
 
+@media (min-width: 900px) {
+  .header {
+    background-position: center;
+    background-image: url("../../media/forest.jpg");
+  }
+}
+
 .text-box {
   position: absolute;
   top: 10%;
@@ -49,8 +56,8 @@ body {
           align-items: center;
   color: #000000;
   text-transform: capitalize;
-  -webkit-animation-name: bounce;
-          animation-name: bounce;
+  -webkit-animation-name: translate-1;
+          animation-name: translate-1;
   -webkit-animation-duration: 2s;
           animation-duration: 2s;
   -webkit-animation-timing-function: ease-in-out;
@@ -59,7 +66,84 @@ body {
   font-size: 3.25rem;
 }
 
+@media (min-width: 600px) {
+  .text-one-main {
+    font-size: 6rem;
+    letter-spacing: 1.8rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .text-one-main {
+    font-size: 10rem;
+    letter-spacing: 2.2rem;
+    text-shadow: 1rem 1rem 2rem #686868;
+  }
+}
+
 .text-one-side {
   text-shadow: 1rem 1rem 1rem #686868;
+  -webkit-animation-name: ani2;
+          animation-name: ani2;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+@media (min-width: 600px) {
+  .text-one-side {
+    font-size: 5rem;
+    letter-spacing: 1.8rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .text-one-side {
+    font-size: 8rem;
+    letter-spacing: 1rem;
+  }
+}
+
+@-webkit-keyframes ani2 {
+  0% {
+    -webkit-transform: scale(2, 0.5);
+            transform: scale(2, 0.5);
+  }
+  100% {
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+  }
+}
+
+@keyframes ani2 {
+  0% {
+    -webkit-transform: scale(2, 0.5);
+            transform: scale(2, 0.5);
+  }
+  100% {
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+  }
+}
+
+@-webkit-keyframes translate-1 {
+  0% {
+    -webkit-transform: translateX(200rem);
+            transform: translateX(200rem);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes translate-1 {
+  0% {
+    -webkit-transform: translateX(200rem);
+            transform: translateX(200rem);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
 }
 /*# sourceMappingURL=style.css.map */

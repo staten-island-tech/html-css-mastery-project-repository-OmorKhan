@@ -3,9 +3,29 @@ $purple: #b134a6;
 $green: #12d623;
 $grey: #686868;
 
+
 html{
     margin: 0;
     padding: 0;
     font-size: 62.5%;
     box-sizing: border-box;   
 }
+$tablet: 600px;
+$laptop: 900px;
+$desktop: 1100px;
+
+@mixin tablet{
+    @media(min-width: #{$tablet}){
+      @content;
+    }
+  }
+  @mixin laptop{
+    @media(min-width: #{$laptop}){
+      @content;
+    }
+  }
+  @mixin desktop{
+    @media(min-width: #{$desktop}){
+      @content;
+    }
+  }
