@@ -75,6 +75,7 @@ html {
       -ms-flex-align: center;
           align-items: center;
   margin: 0 auto;
+  background-image: url("../../media/back.jpg");
 }
 
 @media (min-width: 900px) {
