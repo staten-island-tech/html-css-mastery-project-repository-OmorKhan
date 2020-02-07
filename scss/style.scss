@@ -59,7 +59,7 @@ body{
       @include laptop {
         font-size: 10rem;
         letter-spacing: 2.2rem;
-        text-shadow:1rem 1rem 2rem $darkgrey;
+        text-shadow:1rem 1rem 2rem $grey;
         color: $white;
       }
 }
