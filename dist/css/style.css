@@ -75,7 +75,7 @@ html {
       -ms-flex-align: center;
           align-items: center;
   margin: 0 auto;
-  background-image: url("../../media/back.jpg");
+  background-image: url("../../media/ok.jpg");
 }
 
 @media (min-width: 900px) {
@@ -92,6 +92,7 @@ html {
 .gallery {
   width: 90%;
   padding: 1rem;
+  opacity: 0.89;
 }
 
 @media (min-width: 900px) {
