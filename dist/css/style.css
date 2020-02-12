@@ -18,8 +18,8 @@ html {
   width: 100%;
   height: 90vh;
   background-color: #000000;
-  -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
-          clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+  -webkit-clip-path: polygon(50% 0%, 100% 9%, 100% 89%, 50% 100%, 0 88%, 0 10%);
+          clip-path: polygon(50% 0%, 100% 9%, 100% 89%, 50% 100%, 0 88%, 0 10%);
   position: relative;
   text-align: center;
   display: -webkit-box;
@@ -32,17 +32,17 @@ html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-image: url(../../media/sky6.jpg);
 }
 
-.row {
-  height: 70vh;
-  width: 40%;
-  background-image: url(../media/sky6.jpg);
+@media (min-width: 900px) {
+  .two {
+    -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+            clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+  }
 }
 
 .colum1 {
-  color: #ffffff;
-  left: 20%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -53,18 +53,31 @@ html {
 }
 
 .colum1-header {
-  font-size: 3rem;
+  font-size: 3.4rem;
   font-family: "Kaushan Script", cursive;
   text-transform: uppercase;
+  color: #413333;
 }
 
-.colum-des {
-  font-size: 2rem;
+@media (min-width: 900px) {
+  .colum1-header {
+    font-size: 4rem;
+  }
+}
+
+.colum1-des {
+  font-size: 1.3rem;
   text-transform: capitalize;
+  color: #000000;
+}
+
+@media (min-width: 900px) {
+  .colum1-des {
+    font-size: 2.9rem;
+  }
 }
 
 .colum2 {
-  left: 80%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -72,6 +85,11 @@ html {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.pics-1 {
+  height: 10vh;
+  margin-top: 10vh;
 }
 
 html {
