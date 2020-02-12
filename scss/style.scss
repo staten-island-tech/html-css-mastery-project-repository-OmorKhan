@@ -1,97 +1,93 @@
 @import "_variables.scss";
 @import "_gallery.scss";
+@import "_cont3.scss";
 
-html{
-    margin: 0;
-    padding: 0;
-    font-size: 62.5%;
-    box-sizing: border-box;   
+html {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+  box-sizing: border-box;
 }
-body{
-    background-color: $black;
+body {
+  background-color: $black;
 }
-.header{
-    position: relative;
-    height: 100vh;
-    background-image: url("../../media/tower.jpg");
-    background-position: top;
-    background-size: cover;
-    @include laptop {
-        background-position: center;
-        background-image: url("../../media/zipline.jpg");
-      }
-      @include tablet {
-       
-      }
-
-    
+.header {
+  position: relative;
+  height: 100vh;
+  background-image: url("../../media/tower.jpg");
+  background-position: top;
+  background-size: cover;
+  @include laptop {
+    background-position: center;
+    background-image: url("../../media/hope.jpg");
+  }
+  @include tablet {
+  }
 }
-.text-box{
-    position: absolute;
-    top: 10%;
+.text-box {
+  position: absolute;
+  top: 10%;
+  left: 18%;
+  text-align: center;
+  @include tablet {
+    left: 0%;
+  }
+  @include laptop {
     left: 18%;
-    text-align: center;
-    @include tablet {
-       left: 0%;
-      }
-    @include laptop {
-       left: 18%;
-       top: 10%;
-      }
-      
+    top: 10%;
+  }
 }
-.text-one-main{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    color: $black;
-    text-transform: capitalize;
-    animation-name: translate-1;
-    animation-duration: 2s;
-    animation-timing-function: ease-in-out;
-    text-shadow:1rem 1rem 2rem $black; 
-    font-size: 3.25rem;
-    @include tablet {
-        font-size: 6rem;
-        letter-spacing: 1.8rem;
-      }
-      @include laptop {
-        font-size: 10rem;
-        letter-spacing: 2.2rem;
-        text-shadow:1rem 1rem 2rem $grey;
-        color: $white;
-      }
+.text-one-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  color: $black;
+  text-transform: capitalize;
+  animation-name: translate-1;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  text-shadow: 1rem 1rem 2rem $black;
+  font-size: 3.25rem;
+  @include tablet {
+    font-size: 6rem;
+    letter-spacing: 1.8rem;
+  }
+  @include laptop {
+    font-size: 10rem;
+    letter-spacing: 2.2rem;
+    text-shadow: 1rem 1rem 2rem $grey;
+    color: $white;
+  }
 }
-.text-one-side{
-    text-shadow:1rem 1rem 1rem $grey; 
-    animation-name: ani2;
-    animation-duration: 3s;
-    @include tablet {
-        font-size: 5rem;
-        letter-spacing: 1.8rem;
-        left: 50%;
-      }
-      @include laptop {
-        font-size: 8rem;
-        letter-spacing: 1rem;
-        color: $white;
-      }
+.text-one-side {
+  text-shadow: 1rem 1rem 1rem $grey;
+  animation-name: ani2;
+  animation-duration: 3s;
+  @include tablet {
+    font-size: 5rem;
+    letter-spacing: 1.8rem;
+    left: 50%;
+  }
+  @include laptop {
+    font-size: 8rem;
+    letter-spacing: 1rem;
+    color: $white;
+  }
 }
 @keyframes ani2 {
-    0% {
-      transform: scale(2, 0.5);
-    }
-    100% {
-      transform: scale(1, 1);
-    }
+  0% {
+    transform: scale(2, 0.5);
   }
-  @keyframes translate-1 {
-    0% {
-      transform: translateX(200rem);
-    }
-    100% {
-      transform: translateX(0);
-    }
+  100% {
+    transform: scale(1, 1);
   }
-  
+}
+@keyframes translate-1 {
+  0% {
+    transform: translateX(200rem);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

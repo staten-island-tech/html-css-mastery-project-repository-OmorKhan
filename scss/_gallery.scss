@@ -1,51 +1,65 @@
-@import "_variables.scss";
+// @import "_variables.scss";
 
-.user-gallery {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    @include laptop{
-        height: 90vh;
-    }
-}
-.user-gallery-header{
-    font-size: 2rem;
-    color: white;
-    text-transform: uppercase;
-    @include tablet {
-        font-size: 3rem;
-    }
-    
-    @include laptop {
-        font-size: 4rem;
-    }
-
-    @include desktop {
-        font-size: 5rem;
-    }
-}
-.user-gallery-gallery{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0 auto;
-    background-image: url("../../media/ok.jpg");
-    @include laptop {
-        height: 60%;
-        width: 90%;
-        flex-direction: row;
-        background-image: url("../../media/")
-    }
-}
-.gallery{
-    width:90%;
-    padding: 1rem;
-    opacity: 0.89; 
-    @include laptop {
-        height: 30rem;
-        width: auto;
-    }
-}
+// //.user-gallery {
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   align-items: center;
+//   @include laptop {
+//     height: 90vh;
+//   }
+// }
+// .user-gallery-header {
+//   font-size: 2rem;
+//   color: $white;
+//   text-transform: uppercase;
+//   font-family: "Kaushan Script", cursive;
+//   @include tablet {
+//     font-size: 3rem;
+//   }
+//   @include laptop {
+//     font-size: 4rem;
+//   }
+//   @include desktop {
+//     font-size: 5rem;
+//   }
+// }
+// .user-gallery-gallery {
+//   width: 100%;
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: space-around;
+//   align-items: center;
+//   margin: 0 auto;
+//   background-image: url("../../media/ok.jpg");
+//   @include tablet {
+//     background-image: url("../../media/sky4.jpg");
+//     background-position: center;
+//     background-size: cover;
+//   }
+//   @include laptop {
+//     height: 60%;
+//     width: 90%;
+//     flex-direction: row;
+//     background-position: center;
+//     background-size: cover;
+//     background-image: url("../../media/bk.jpg");
+//   }
+// }
+// .gallery {
+//   width: 90%;
+//   padding: 1rem;
+//   opacity: 0.89;
+//   @include laptop {
+//     height: 30rem;
+//     width: auto;
+//   }
+// }
+// .gallery:hover {
+//     transform: scale(1.3);
+//     outline: 2rem solid $blue;
+//   }
+//   .user-gallery-gallery:hover .gallery:not(:hover) {
+//     transform: scale(0.8);
+//     opacity: 0.5;
+//   }//
