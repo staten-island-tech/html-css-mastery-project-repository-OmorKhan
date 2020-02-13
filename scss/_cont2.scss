@@ -30,6 +30,9 @@
     @include laptop{
         font-size: 4rem;
     }
+    @include tablet {
+        font-size: 4rem;
+      }
 }
 .colum1-des{
     font-size: 1.3rem;
@@ -39,14 +42,32 @@
         font-size: 2.9rem;
         
     }
+    @include tablet {
+        font-size: 2.1rem;
+      }
 }
 .colum2{
    display: flex;
    flex-direction: column;
    
 }
-.pics-1{
-    height: 10vh;
-    margin-top: 10vh;
-  
+
+.sky{
+    height: 10rem;
+    transition: all 0.3s;
+    outline-offset: 1rem;
+    padding: 2rem;
+    @include tablet {
+        height: 20rem;
+      }
+}
+.one{
+ 
+    
+}
+.stwo{
+   
+}
+.three{
+    
 }

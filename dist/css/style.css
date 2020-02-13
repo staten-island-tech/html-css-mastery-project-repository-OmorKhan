@@ -65,6 +65,12 @@ html {
   }
 }
 
+@media (min-width: 600px) {
+  .colum1-header {
+    font-size: 4rem;
+  }
+}
+
 .colum1-des {
   font-size: 1.3rem;
   text-transform: capitalize;
@@ -74,6 +80,12 @@ html {
 @media (min-width: 900px) {
   .colum1-des {
     font-size: 2.9rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .colum1-des {
+    font-size: 2.1rem;
   }
 }
 
@@ -87,9 +99,18 @@ html {
           flex-direction: column;
 }
 
-.pics-1 {
-  height: 10vh;
-  margin-top: 10vh;
+.sky {
+  height: 10rem;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  outline-offset: 1rem;
+  padding: 2rem;
+}
+
+@media (min-width: 600px) {
+  .sky {
+    height: 20rem;
+  }
 }
 
 html {
