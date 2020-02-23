@@ -82,25 +82,8 @@ html {
   }
 }
 
-@media (min-width: 900px) {
-  .card-side.card-one {
-    left: 10rem;
-  }
-}
-
-@media (min-width: 900px) {
-  .card-side.card-two {
-    left: 20rem;
-  }
-}
-
-@media (min-width: 900px) {
-  .card-side.card-three {
-    left: 30rem;
-  }
-}
-
-.visit-image-front {
+.visit-image-front-one {
+  background-image: url(../../media/hob.jpg);
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -108,29 +91,65 @@ html {
   transition: all 1s;
 }
 
-.visit-image-front.card-one {
-  background-image: url(../../media/hob.jpg);
-}
-
-.visit-image-front.card-two {
-  background-image: url(../../media/zipline.jpg);
-}
-
-.visit-image-front.card-three {
-  background-image: url(../../media/raft.jpg);
-}
-
-.visit-image-back {
+.visit-image-back-one {
   position: absolute;
   z-index: 0;
   transform: rotateY(-180deg);
   transition: all 1s;
 }
 
-.visit-flip-card:hover .visit-image-front {
+.visit-flip-card-one:hover .visit-image-front-one {
   transform: rotateY(-180deg);
 }
 
-.visit-flip-card:hover .visit-image-back {
+.visit-flip-card-one:hover .visit-image-back-one {
+  transform: rotateY(0deg);
+}
+
+.visit-image-front-two {
+  background-image: url(../../media/zipline.jpg);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  z-index: 1;
+  transition: all 1s;
+}
+
+.visit-image-back-two {
+  position: absolute;
+  z-index: 0;
+  transform: rotateY(-180deg);
+  transition: all 1s;
+}
+
+.visit-flip-card-two:hover .visit-image-front-two {
+  transform: rotateY(-180deg);
+}
+
+.visit-flip-card-two:hover .visit-image-back-two {
+  transform: rotateY(0deg);
+}
+
+.visit-image-front-three {
+  background-image: url(../../media/raft.jpg);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  z-index: 1;
+  transition: all 1s;
+}
+
+.visit-image-back-three {
+  position: absolute;
+  z-index: 0;
+  transform: rotateY(-180deg);
+  transition: all 1s;
+}
+
+.visit-flip-card-three:hover .visit-image-front-three {
+  transform: rotateY(-180deg);
+}
+
+.visit-flip-card-three:hover .visit-image-back-three {
   transform: rotateY(0deg);
 }

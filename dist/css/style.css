@@ -232,25 +232,8 @@ html {
   }
 }
 
-@media (min-width: 900px) {
-  .card-side.card-one {
-    left: 10rem;
-  }
-}
-
-@media (min-width: 900px) {
-  .card-side.card-two {
-    left: 20rem;
-  }
-}
-
-@media (min-width: 900px) {
-  .card-side.card-three {
-    left: 30rem;
-  }
-}
-
-.visit-image-front {
+.visit-image-front-one {
+  background-image: url(../../media/hob.jpg);
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -259,19 +242,7 @@ html {
   transition: all 1s;
 }
 
-.visit-image-front.card-one {
-  background-image: url(../../media/hob.jpg);
-}
-
-.visit-image-front.card-two {
-  background-image: url(../../media/zipline.jpg);
-}
-
-.visit-image-front.card-three {
-  background-image: url(../../media/raft.jpg);
-}
-
-.visit-image-back {
+.visit-image-back-one {
   position: absolute;
   z-index: 0;
   -webkit-transform: rotateY(-180deg);
@@ -280,12 +251,70 @@ html {
   transition: all 1s;
 }
 
-.visit-flip-card:hover .visit-image-front {
+.visit-flip-card-one:hover .visit-image-front-one {
   -webkit-transform: rotateY(-180deg);
           transform: rotateY(-180deg);
 }
 
-.visit-flip-card:hover .visit-image-back {
+.visit-flip-card-one:hover .visit-image-back-one {
+  -webkit-transform: rotateY(0deg);
+          transform: rotateY(0deg);
+}
+
+.visit-image-front-two {
+  background-image: url(../../media/zipline.jpg);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  z-index: 1;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.visit-image-back-two {
+  position: absolute;
+  z-index: 0;
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.visit-flip-card-two:hover .visit-image-front-two {
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+}
+
+.visit-flip-card-two:hover .visit-image-back-two {
+  -webkit-transform: rotateY(0deg);
+          transform: rotateY(0deg);
+}
+
+.visit-image-front-three {
+  background-image: url(../../media/raft.jpg);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  z-index: 1;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.visit-image-back-three {
+  position: absolute;
+  z-index: 0;
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.visit-flip-card-three:hover .visit-image-front-three {
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+}
+
+.visit-flip-card-three:hover .visit-image-back-three {
   -webkit-transform: rotateY(0deg);
           transform: rotateY(0deg);
 }
