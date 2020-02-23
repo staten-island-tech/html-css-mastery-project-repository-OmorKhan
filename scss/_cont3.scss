@@ -1,0 +1,110 @@
+@import "_variables.scss";
+
+.cthree{
+  background-image: url(../../media/white.jpg);
+
+}
+.visit-title{
+    font-size: 2rem;
+    color: $white;
+    text-align: center;
+    height: 2vh;
+    letter-spacing: .2rem;
+
+    @include tablet{
+        font-size: 3rem;
+        height: 6vh;
+        margin-top: 1rem;
+    }    
+    @include laptop{
+        font-size: 4rem;
+        height: 10vh;
+        margin-top: 2rem;
+    }
+} 
+
+.visit-parent{
+    height: 90vh;    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    @include tablet{
+        flex-direction: row;
+        align-items: flex-start;
+        height: 35vh;
+    }    
+    @include laptop{
+        height: 80vh;
+        flex-direction: row;
+        align-content: space-between;
+        align-items: center;
+    }
+}
+
+.card-side{
+    height: 21rem;
+    width: 15rem;
+    font-size: 15px;
+    color: $white;
+    backface-visibility: hidden;
+    box-shadow: 0 1.5rem 4rem $white;
+    @include tablet{
+        height: 28rem;
+        width: 18rem;
+    }
+    @include laptop{
+        height: 40rem;
+        width: 25rem;
+        top: 220%;
+    }
+}
+.card-side.card-one{
+    @include laptop{
+        left: 10rem;
+    }
+}
+.card-side.card-two{
+    @include laptop{
+        left: 20rem;
+    }
+}
+.card-side.card-three{
+    @include laptop{
+        left: 30rem;
+
+    }
+}
+
+.visit-image-front{
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    z-index: 1;
+    transition: all 1s;
+}
+.visit-image-front.card-one{
+    background-image: url(../../media/hob.jpg);
+}
+.visit-image-front.card-two{
+    background-image: url(../../media/zipline.jpg);
+}
+.visit-image-front.card-three{
+    background-image: url(../../media/raft.jpg);
+}
+
+.visit-image-back{
+    position: absolute;
+    z-index: 0;
+    transform: rotateY(-180deg);
+    transition: all 1s;
+}
+
+.visit-flip-card:hover .visit-image-front{
+    transform: rotateY(-180deg);
+}
+
+.visit-flip-card:hover .visit-image-back{
+    transform: rotateY(0deg);
+} 
