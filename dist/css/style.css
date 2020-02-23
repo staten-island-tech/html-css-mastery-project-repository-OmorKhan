@@ -54,7 +54,7 @@ html {
 }
 
 .colum1-header {
-  font-size: 3.4rem;
+  font-size: 3rem;
   font-family: "Kaushan Script", cursive;
   text-transform: uppercase;
   color: #413333;
@@ -73,7 +73,7 @@ html {
 }
 
 .colum1-des {
-  font-size: 1.3rem;
+  font-size: 1.25rem;
   text-transform: capitalize;
   color: #000000;
   text-shadow: #1089ad 2px 0 10px;
