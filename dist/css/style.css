@@ -159,7 +159,6 @@ html {
   .visit-title {
     font-size: 4rem;
     height: 10vh;
-    margin-top: 2rem;
   }
 }
 
@@ -178,6 +177,7 @@ html {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  width: 45%;
 }
 
 @media (min-width: 600px) {
@@ -190,6 +190,7 @@ html {
         -ms-flex-align: start;
             align-items: flex-start;
     height: 35vh;
+    width: 75%;
   }
 }
 
@@ -208,9 +209,8 @@ html {
 }
 
 .card-side {
-  height: 21rem;
-  width: 15rem;
-  font-size: 15px;
+  height: 10rem;
+  width: 20rem;
   color: #ffffff;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
@@ -220,8 +220,8 @@ html {
 
 @media (min-width: 600px) {
   .card-side {
-    height: 28rem;
-    width: 18rem;
+    height: 20rem;
+    width: 10rem;
   }
 }
 
@@ -230,6 +230,7 @@ html {
     height: 40rem;
     width: 25rem;
     top: 220%;
+    font-size: 4rem;
   }
 }
 

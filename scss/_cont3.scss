@@ -21,7 +21,6 @@
     @include laptop{
         font-size: 4rem;
         height: 10vh;
-        margin-top: 2rem;
     }
 } 
 
@@ -31,11 +30,13 @@
     align-items: center;
     flex-direction: column;
     justify-content: space-evenly;
+    width: 45%;
 
     @include tablet{
         flex-direction: row;
         align-items: flex-start;
         height: 35vh;
+        width: 75%;
     }    
     @include laptop{
         height: 80vh;
@@ -46,20 +47,20 @@
 }
 
 .card-side{
-    height: 21rem;
-    width: 15rem;
-    font-size: 15px;
+    height: 10rem;
+    width: 20rem;
     color: $white;
     backface-visibility: hidden;
     box-shadow: 0 1.5rem 4rem $white;
     @include tablet{
-        height: 28rem;
-        width: 18rem;
+        height: 20rem;
+        width: 10rem;
     }
     @include laptop{
         height: 40rem;
         width: 25rem;
         top: 220%;
+        font-size: 4rem;
         
     }
 }
