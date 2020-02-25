@@ -36,7 +36,7 @@
         flex-direction: row;
         align-items: flex-start;
         height: 35vh;
-        width: 75%;
+        width: 83.5%;
     }    
     @include laptop{
         height: 80vh;
@@ -53,8 +53,9 @@
     backface-visibility: hidden;
     box-shadow: 0 1.5rem 4rem $white;
     @include tablet{
-        height: 20rem;
-        width: 10rem;
+        height: 25rem;
+        width: 15rem;
+        top: 202.5%;
     }
     @include laptop{
         height: 40rem;
