@@ -139,6 +139,18 @@ html {
   border-radius: 25% 20%;
 }
 
+@media (min-width: 600px) {
+  .cthree {
+    background-image: url(../../media/white.jpg);
+  }
+}
+
+@media (min-width: 900px) {
+  .cthree {
+    background-image: url(../../media/white.jpg);
+  }
+}
+
 .visit-title {
   font-size: 2rem;
   color: #000000;
@@ -163,7 +175,7 @@ html {
 }
 
 .visit-parent {
-  height: 90vh;
+  height: 65vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -190,7 +202,7 @@ html {
         -ms-flex-align: start;
             align-items: flex-start;
     height: 35vh;
-    width: 83.5%;
+    width: 85%;
   }
 }
 
@@ -265,7 +277,7 @@ html {
 }
 
 .visit-image-front-two {
-  background-image: url(../../media/zipline.jpg);
+  background-image: url(../../media/island.jpg);
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -294,7 +306,7 @@ html {
 }
 
 .visit-image-front-three {
-  background-image: url(../../media/raft.jpg);
+  background-image: url(../../media/glow.jpg);
   background-size: cover;
   background-position: center;
   position: absolute;
