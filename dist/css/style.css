@@ -137,6 +137,7 @@ html {
 .cthree {
   background-image: url(../../media/white.jpg);
   border-radius: 25% 20%;
+  padding: 3rem;
 }
 
 @media (min-width: 600px) {
