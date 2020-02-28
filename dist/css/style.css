@@ -126,6 +126,18 @@ html {
   }
 }
 
+.colum2:hover {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+  outline: 2rem solid #1089ad;
+}
+
+.two:hover .colum2:not(:hover) {
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+  opacity: 0.5;
+}
+
 html {
   margin: 0;
   padding: 0;
@@ -137,6 +149,7 @@ html {
 .cthree {
   background-image: url(../../media/white.jpg);
   border-radius: 25% 20%;
+  padding: 1.25rem;
 }
 
 @media (min-width: 600px) {

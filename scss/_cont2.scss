@@ -71,6 +71,14 @@
         height: 17rem;
     }
 }
+.colum2:hover {
+        transform: scale(1.3);
+         outline: 2rem solid $blue;
+      }
+       .two:hover .colum2:not(:hover) {
+         transform: scale(0.8);
+        opacity: 0.5;
+       }
 // .one{
  
     
