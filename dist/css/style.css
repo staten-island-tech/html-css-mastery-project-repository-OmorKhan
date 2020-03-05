@@ -356,7 +356,7 @@ html {
 }
 
 .cfour {
-  height: 80%;
+  height: 95%;
   width: 100%;
   padding: 0;
   margin: 0;
@@ -370,7 +370,7 @@ html {
 
 @media (min-width: 600px) {
   .cfour {
-    height: 70%;
+    height: 65%;
   }
 }
 
@@ -391,6 +391,7 @@ html {
   #video {
     -o-object-fit: fill;
        object-fit: fill;
+    border-radius: 20% / 70%;
   }
 }
 
@@ -403,14 +404,22 @@ html {
 
 .text {
   position: absolute;
-  top: 260%;
+  top: 265%;
   color: #ffffff;
   width: 30rem;
   height: 10rem;
-  padding: 10rem;
-  left: -20%;
+  left: 10%;
   font-size: 1.75rem;
   opacity: 0.5;
+}
+
+@media (min-width: 600px) {
+  .text {
+    font-size: 2rem;
+    top: 240%;
+    left: 5%;
+    width: 65%;
+  }
 }
 
 @media (min-width: 900px) {
@@ -420,23 +429,14 @@ html {
     width: 100rem;
     height: 10rem;
     left: 20%;
-    top: 295%;
-  }
-}
-
-@media (min-width: 600px) {
-  .text {
-    font-size: 2rem;
-    top: 233%;
-    left: 5%;
-    width: 65%;
+    top: 290%;
   }
 }
 
 .text:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
-  outline: 2rem solid #ffffff;
+  outline: 1.3rem solid #ffffff;
 }
 
 .cfour:hover .text:not(:hover) {
