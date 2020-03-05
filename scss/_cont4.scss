@@ -1,15 +1,21 @@
 @import "_variables.scss";
 .cfour {
-    height: 100%;
+    height: 120%;
     width: 100%;
     padding: 0;
     margin: 0;
+    @include laptop{
+      height: 120%;
+    }
+  @include tablet {
+      height: 100%
+    }
   }
   
   #video {
     position: relative;
-    height: 100vh;
-    width: 80rem;
+    height: 105%;
+    width: 100%;
     right: 0;
     bottom: 0;
     z-index: -1;
@@ -18,9 +24,26 @@
   }
   .text {
     position: absolute;
-    bottom: 0;
-    background: $black;
+    top: 250%;
     color: $white;
-    width: 100%;
-    padding: 20px;
+    width: 75rem;
+    height: 10rem;
+    padding: 10rem;
+    left:20%;
+    font-size: 4rem;
+    @include laptop{
+      font-size: .5rem;
+    }
+  @include tablet {
+      font-size: 4rem;
+    }
+
   }
+  .text:hover {
+    transform: scale(.6);
+     outline: 2rem solid $white;
+  }
+   .cfour:hover .text:not(:hover) {
+     transform: scale(0.4);
+    opacity: 0.4;
+   }
