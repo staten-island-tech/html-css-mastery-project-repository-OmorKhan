@@ -1,14 +1,15 @@
 @import "_variables.scss";
+
 .cfour {
-    height: 120%;
+    height: 80%;
     width: 100%;
     padding: 0;
     margin: 0;
     @include laptop{
       height: 120%;
     }
-  @include tablet {
-      height: 100%
+    @include tablet {
+      height: 70%;
     }
   }
   
@@ -22,29 +23,45 @@
     min-width: 100%;
     min-height: 100%;
     object-fit: fill;
+    @include laptop{
+      object-fit: fill;
+    }
+    @include tablet {
+      object-fit: fill;
+    }
+
   }
   .text {
     position: absolute;
-    top: 250%;
+    top: 260%;
     color: $white;
-    width: 75rem;
+    width: 30rem;
     height: 10rem;
     padding: 10rem;
-    left:20%;
-    font-size: 4rem;
+    left:-20%;
+    font-size: 1.75rem;
+    opacity: 0.5;
     @include laptop{
-      font-size: .5rem;
+      font-size: 3rem;
+      opacity: 0.6;
+      width: 100rem;
+      height: 10rem;
+      left: 20%;
+      top: 295%;
     }
-  @include tablet {
-      font-size: 4rem;
+    @include tablet {
+      font-size: 2rem;
+      top: 233%;
+      left: 5%;
+      width: 65%;
     }
 
   }
   .text:hover {
-    transform: scale(.6);
+    transform: scale(1.1);
      outline: 2rem solid $white;
   }
    .cfour:hover .text:not(:hover) {
      transform: scale(0.4);
-    opacity: 0.4;
+    
    }
