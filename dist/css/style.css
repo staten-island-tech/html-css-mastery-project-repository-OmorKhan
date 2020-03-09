@@ -452,6 +452,47 @@ html {
           box-sizing: border-box;
 }
 
+.footer {
+  height: 80vh;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.insta {
+  height: 50rem;
+  width: 25rem;
+}
+
+.snap {
+  height: 50rem;
+  width: 25rem;
+}
+
+.youtube {
+  height: 50rem;
+  width: 25rem;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 body {
   background-color: #000000;
 }

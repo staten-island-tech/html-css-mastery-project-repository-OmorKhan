@@ -1,0 +1,21 @@
+@import "_variables.scss";
+.footer {
+  height: 80vh;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.insta{
+    height: 50rem;
+    width: 25rem;
+}
+.snap{
+    height: 50rem;
+    width: 25rem;
+}
+.youtube{
+    height: 50rem;
+    width: 25rem;
+}
