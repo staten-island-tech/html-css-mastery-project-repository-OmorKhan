@@ -5,17 +5,20 @@
   align-items: center;
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
-.insta{
-    height: 50rem;
-    width: 25rem;
+ 
+.icon{
+    height: 55rem;
+    width: 5rem;
+    @include tablet {
+        height: 72rem;
+        width: 7rem;
+      }
+    @include laptop{
+        height: 45rem;
+        width: 7rem;
+      }
+    
 }
-.snap{
-    height: 50rem;
-    width: 25rem;
-}
-.youtube{
-    height: 50rem;
-    width: 25rem;
-}
+

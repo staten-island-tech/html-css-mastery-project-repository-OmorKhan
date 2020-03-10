@@ -465,24 +465,27 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
-.insta {
-  height: 50rem;
-  width: 25rem;
+.icon {
+  height: 55rem;
+  width: 5rem;
 }
 
-.snap {
-  height: 50rem;
-  width: 25rem;
+@media (min-width: 600px) {
+  .icon {
+    height: 72rem;
+    width: 7rem;
+  }
 }
 
-.youtube {
-  height: 50rem;
-  width: 25rem;
+@media (min-width: 900px) {
+  .icon {
+    height: 45rem;
+    width: 7rem;
+  }
 }
 
 html {
