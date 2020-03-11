@@ -6,19 +6,24 @@
   width: 100%;
   display: flex;
   justify-content: space-around;
+  // background-color: $purple;
 }
  
 .icon{
     height: 55rem;
-    width: 5rem;
+    width: 50rem;
+    margin: 4rem;
     @include tablet {
         height: 72rem;
-        width: 7rem;
+        width: 70rem;
+        margin: 12rem;
       }
     @include laptop{
         height: 45rem;
-        width: 7rem;
+        width: 70rem;
       }
-    
 }
 
+.insta{
+
+}
