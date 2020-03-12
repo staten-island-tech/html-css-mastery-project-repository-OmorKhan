@@ -10,17 +10,18 @@
 }
  
 .icon{
-    height: 55rem;
+    height: 50rem;
     width: 50rem;
-    margin: 4rem;
+    margin: 1.25rem;
     @include tablet {
         height: 72rem;
         width: 70rem;
-        margin: 12rem;
+        margin: 10rem;
       }
     @include laptop{
         height: 45rem;
         width: 70rem;
+        margin: 27rem;
       }
 }
 

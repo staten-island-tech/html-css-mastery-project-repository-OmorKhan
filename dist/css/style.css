@@ -470,16 +470,16 @@ html {
 }
 
 .icon {
-  height: 55rem;
+  height: 50rem;
   width: 50rem;
-  margin: 4rem;
+  margin: 1.25rem;
 }
 
 @media (min-width: 600px) {
   .icon {
     height: 72rem;
     width: 70rem;
-    margin: 12rem;
+    margin: 10rem;
   }
 }
 
@@ -487,6 +487,7 @@ html {
   .icon {
     height: 45rem;
     width: 70rem;
+    margin: 27rem;
   }
 }
 
