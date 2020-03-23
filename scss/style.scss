@@ -98,13 +98,31 @@ body {
   background:$white;
   height: 80px;
   width: 100%;
+  @include tablet{
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    padding-top: 2rem;
+}
+@include laptop{
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
 }
 .logo{
-  color: $black;
-  font-size: 3rem;
+  color: $white;
+  font-size: 1.75rem;
   line-height: 80px;
   padding: 0 100px;
   font-weight: bold;
+  @include tablet {
+    font-size: 2rem;
+   
+  }
+  @include laptop{
+    font-size: 3rem;
+  }
 }
 .ul{
   float: right;
@@ -117,10 +135,16 @@ body {
 }
 .a{
   color: $white;
-  font-size: 17px;
+  font-size: 1,75rem;
   padding: 7px 13px;
   border-radius: 3px;
   text-transform: uppercase;
+  @include tablet {
+    font-size: 2rem;
+  }
+  @include laptop{
+    font-size: 3rem;
+  }
 }
 .ul:hover .a:not(:hover) {
   background: $blue;
@@ -133,7 +157,8 @@ body {
   line-height: 80px;
   margin-right: 40px;
   cursor: pointer;
-  display: none
+  display: none;
+
 }
 #check{
   display: none;

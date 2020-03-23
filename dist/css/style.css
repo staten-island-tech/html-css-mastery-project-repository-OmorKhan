@@ -656,10 +656,22 @@ body {
 
 .logo {
   color: #000000;
-  font-size: 3rem;
+  font-size: 1.75rem;
   line-height: 80px;
   padding: 0 100px;
   font-weight: bold;
+}
+
+@media (min-width: 600px) {
+  .logo {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .logo {
+    font-size: 3rem;
+  }
 }
 
 .ul {
@@ -675,10 +687,22 @@ body {
 
 .a {
   color: #ffffff;
-  font-size: 17px;
+  font-size: 1,75rem;
   padding: 7px 13px;
   border-radius: 3px;
   text-transform: uppercase;
+}
+
+@media (min-width: 600px) {
+  .a {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .a {
+    font-size: 3rem;
+  }
 }
 
 .ul:hover .a:not(:hover) {
