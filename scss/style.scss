@@ -127,6 +127,13 @@ body {
 .ul{
   float: right;
   margin-right: 20px;
+  @include tablet{
+    flex-direction: row;
+    width: 100%;
+}
+@include laptop{
+    justify-content: flex-end;
+}
 }
 .li{
   display: inline-block;
@@ -147,7 +154,7 @@ body {
   }
 }
 .ul:hover .a:not(:hover) {
-  background: $blue;
+  background: $grey;
   transition: .5s;
 }
 .checkbtn{
