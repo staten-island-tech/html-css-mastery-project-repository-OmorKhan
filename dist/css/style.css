@@ -459,7 +459,7 @@ body {
 .header {
   position: relative;
   height: 100vh;
-  background-image: url("../dist/media/tower.jpg");
+  background-image: url("dist/media/tower.jpg");
   background-position: top;
   background-size: cover;
 }
@@ -467,7 +467,7 @@ body {
 @media (min-width: 900px) {
   .header {
     background-position: center;
-    background-image: url("../dist/media/hope.jpg");
+    background-image: url("dist/media/hope.jpg");
   }
 }
 
