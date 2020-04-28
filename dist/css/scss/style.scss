@@ -16,12 +16,12 @@ body {
 .header {
   position: relative;
   height: 100vh;
-  background-image: url("media/tower.jpg");
+  background-image: url("../media/tower.jpg");
   background-position: top;
   background-size: cover;
   @include laptop {
     background-position: center;
-    background-image: url("media/hope.jpg");
+    background-image: url("../media/hope.jpg");
   }
   @include tablet {
   }

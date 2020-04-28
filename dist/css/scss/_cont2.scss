@@ -10,11 +10,11 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-image: url(media/sky6.jpg);
+    background-image: url(../media/sky6.jpg);
     @include laptop {
         border-radius: 5rem;
         clip-path: circle(100%);
-        background-image: url(media/sky5.jpg);
+        background-image: url(../media/sky5.jpg);
       }
     
 }

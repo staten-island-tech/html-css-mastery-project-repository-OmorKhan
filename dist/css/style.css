@@ -32,7 +32,7 @@ html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-image: url(media/sky6.jpg);
+  background-image: url(../media/sky6.jpg);
 }
 
 @media (min-width: 900px) {
@@ -40,7 +40,7 @@ html {
     border-radius: 5rem;
     -webkit-clip-path: circle(100%);
             clip-path: circle(100%);
-    background-image: url(media/sky5.jpg);
+    background-image: url(../media/sky5.jpg);
   }
 }
 
@@ -147,20 +147,20 @@ html {
 }
 
 .cthree {
-  background-image: url(media/white.jpg);
+  background-image: url(../media/white.jpg);
   border-radius: 25% 20%;
   padding: 1.25rem;
 }
 
 @media (min-width: 600px) {
   .cthree {
-    background-image: url(media/white.jpg);
+    background-image: url(../media/white.jpg);
   }
 }
 
 @media (min-width: 900px) {
   .cthree {
-    background-image: url(media/white.jpg);
+    background-image: url(../media/white.jpg);
   }
 }
 
@@ -261,7 +261,7 @@ html {
 }
 
 .visit-image-front-one {
-  background-image: url(media/hob.jpg);
+  background-image: url(../media/hob.jpg);
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -290,7 +290,7 @@ html {
 }
 
 .visit-image-front-two {
-  background-image: url(media/island.jpg);
+  background-image: url(../media/island.jpg);
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -319,7 +319,7 @@ html {
 }
 
 .visit-image-front-three {
-  background-image: url(media/glow.jpg);
+  background-image: url(../media/glow.jpg);
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -459,7 +459,7 @@ body {
 .header {
   position: relative;
   height: 100vh;
-  background-image: url("media/tower.jpg");
+  background-image: url("../media/tower.jpg");
   background-position: top;
   background-size: cover;
 }
@@ -467,7 +467,7 @@ body {
 @media (min-width: 900px) {
   .header {
     background-position: center;
-    background-image: url("media/hope.jpg");
+    background-image: url("../media/hope.jpg");
   }
 }
 
