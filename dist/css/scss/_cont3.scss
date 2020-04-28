@@ -1,15 +1,15 @@
 @import "_variables.scss";
 
 .cthree{
-  background-image: url(../dist/media/white.jpg);
+  background-image: url(media/white.jpg);
 //   clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
   border-radius: 25% 20%;
   padding: 1.25rem;
   @include tablet{
-    background-image: url(../dist/media/white.jpg);
+    background-image: url(media/white.jpg);
 }    
 @include laptop{
-    background-image: url(../dist/media/white.jpg);
+    background-image: url(media/white.jpg);
 }
 
 }
@@ -75,7 +75,7 @@
 
 
 .visit-image-front-one{
-    background-image: url(../dist/media/hob.jpg);
+    background-image: url(media/hob.jpg);
     background-size: cover;
     background-position: center;
     position: absolute;
@@ -99,7 +99,7 @@
     transform: rotateY(0deg);
 } 
 .visit-image-front-two{
-    background-image: url(../../media/island.jpg);
+    background-image: url(media/island.jpg);
     background-size: cover;
     background-position: center;
     position: absolute;
@@ -123,7 +123,7 @@
     transform: rotateY(0deg);
 } 
 .visit-image-front-three{
-    background-image: url(../dist/media/glow.jpg);
+    background-image: url(media/glow.jpg);
     background-size: cover;
     background-position: center;
     position: absolute;
