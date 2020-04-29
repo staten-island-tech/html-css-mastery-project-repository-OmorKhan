@@ -14,6 +14,10 @@ html {
           box-sizing: border-box;
 }
 
+.backgroundone {
+  background-color: #afdde2;
+}
+
 .two {
   width: 100%;
   height: 90vh;
@@ -144,6 +148,10 @@ html {
   font-size: 62.5%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+.backgroundtwo {
+  background-color: #b8b4b4;
 }
 
 .cthree {
@@ -528,13 +536,13 @@ body {
   .text-one-main {
     font-size: 10rem;
     letter-spacing: 2.2rem;
-    text-shadow: 1rem 1rem 2rem #686868;
+    text-shadow: 1rem 1rem 2rem #b8b4b4;
     color: #ffffff;
   }
 }
 
 .text-one-side {
-  text-shadow: 1rem 1rem 1rem #686868;
+  text-shadow: 1rem 1rem 1rem #b8b4b4;
   -webkit-animation-name: ani2;
           animation-name: ani2;
   -webkit-animation-duration: 3s;
